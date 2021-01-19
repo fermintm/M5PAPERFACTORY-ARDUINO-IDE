@@ -1,9 +1,9 @@
 #include "systeminit.h"
-#include "epdgui/epdgui.h"
-#include "frame/frame.h"
+#include "epdgui.h"
+#include "frame.h"
 #include "Free_Fonts.h"
 #include "global_setting.h"
-#include "resources/binaryttf.h"
+#include "binaryttf.h"
 #include <WiFi.h>
 
 QueueHandle_t xQueue_Info = xQueueCreate(20, sizeof(uint32_t));
