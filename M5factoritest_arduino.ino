@@ -1,6 +1,6 @@
 #include <M5EPD.h>
-#include "epdgui/epdgui.h"
-#include "frame/frame.h"
+#include "epdgui.h"
+#include "frame.h"
 #include "systeminit.h"
 
 void setup()
